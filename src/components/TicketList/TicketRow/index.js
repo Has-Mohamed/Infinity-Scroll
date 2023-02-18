@@ -5,7 +5,7 @@ const TicketRow = ({ style, itemsDetails, onEdit }) => {
   return (
     <div
       className={`d-flex ${itemsDetails.id % 2 ? "bg-white" : "bg-light"}`}
-      // key={itemsDetails.id}
+
       style={{
         height: "50px",
         boxSizing: "border-box",

@@ -49,10 +49,10 @@ const TicketList = (props) => {
           className="inner"
           style={{ position: "relative", height: `${innerHeight}px` }}
         >
-          {/* {items} */}
+
           {itemsArray.slice(startIndex, endIndex + 1).map((i, ind) => {
-            // const index = ind + startIndex;
-            // console.log(i);
+            
+            
             return (
               <TicketRow
                 key={i.id}

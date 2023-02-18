@@ -20,7 +20,6 @@ const ListContainer = () => {
   };
 
   useEffect(() => {
-    // repopulate the list when count changes
     setTickets(
       new Array(10101).fill(null).map((_, i) => ({
         id: i,
@@ -36,7 +35,6 @@ const ListContainer = () => {
     setTickets(newTickets);
   };
 
-  // const addTicket = ()=>
   return (
     <div className="container my-5 ">
       <div className="d-flex justify-content-between mb-3 align-items-center">
